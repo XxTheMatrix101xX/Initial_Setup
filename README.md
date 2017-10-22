@@ -5,8 +5,8 @@ also makes a backup of the wallet.dat and moves the tor and onion folders over
 to the new directory so that you can keep your hostname, this also makes the 
 initial wallet connect to peers faster because it needs to do less setup.
 
-Tool;
-+Prompts user asking if they have the old dev's wallet on their system.
+Tool:
+Prompts user asking if they have the old dev's wallet on their system.
   -If no; 
       -Creates self destruct file and starts new wallet regularly before 
         destroying itself.

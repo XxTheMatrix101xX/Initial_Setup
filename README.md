@@ -7,22 +7,22 @@ initial wallet connect to peers faster because it needs to do less setup.
 
 Tool:
 Prompts user asking if they have the old dev's wallet on their system.
- - If no; 
+ - If no: 
     + Creates self destruct file and starts new wallet regularly before 
         destroying itself.
- - If yes;
-      -Checks to see if old dev's wallet is running.
-        + if yes;
-          - Prompts user to shut down the wallet then waits for the wallet to shut down.
-          - Continues.
-        + if no;
-          - Continues.
-      - Displays current task.
-      - Creates self destruct file.
-      - Creates root folder and then moves \Onion\, \Tor\, and wallet.dat to root.
-      - Creates backup wallet.dat folder and copies original to that folder.
-      - Runs Wallet with -zapwallettxes variable.
-      - Runs self destruct file.
+ - If yes:
+    + Checks to see if old dev's wallet is running.
+      - if yes;
+          + Prompts user to shut down the wallet then waits for the wallet to shut down.
+          + Continues.
+      - if no;
+        + Continues.
+        + Displays current task.
+        + Creates self destruct file.
+        + Creates root folder and then moves \Onion\, \Tor\, and wallet.dat to root.
+        + Creates backup wallet.dat folder and copies original to that folder.
+        + Runs Wallet with -zapwallettxes variable.
+        + Runs self destruct file.
       
       
       

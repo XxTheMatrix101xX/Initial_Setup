@@ -6,7 +6,7 @@ to the new directory so that you can keep your hostname, this also makes the
 initial wallet connect to peers faster because it needs to do less setup.
 
 Tool:
-Prompts user asking if they have the old dev's wallet on their system.
++ Prompts user asking if they have the old dev's wallet on their system.
  - If no: 
     + Creates self destruct file and starts new wallet regularly before 
         destroying itself.
@@ -27,10 +27,13 @@ Prompts user asking if they have the old dev's wallet on their system.
       
       
 Tested Environments:
-64x Windows 10 Professional
-  - Runs flawlessly
-64x Windows 10 Home
-  - Runs flawlessly
-64x Windows 7 Professional
-  - Runs correctly however on self destruct wallet is shut down.
-      + Added extra time before self destruct so all required files could be made.
+
++ 64x Windows 10 Professional.
+	- Runs flawlessly.
+	
++ 64x Windows 10 Home.
+	- Runs flawlessly.
+	
++ 64x Windows 7 Professional.
+	- Runs correctly however on self destruct wallet is shut down.
+		- Added extra time before self destruct so all required files could be made.

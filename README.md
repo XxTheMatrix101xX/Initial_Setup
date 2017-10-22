@@ -7,10 +7,10 @@ initial wallet connect to peers faster because it needs to do less setup.
 
 Tool:
 Prompts user asking if they have the old dev's wallet on their system.
-  -If no; 
-      -Creates self destruct file and starts new wallet regularly before 
+ - If no; 
+    + Creates self destruct file and starts new wallet regularly before 
         destroying itself.
-  -if yes;
+ - If yes;
       -Checks to see if old dev's wallet is running.
         + if yes;
           - Prompts user to shut down the wallet then waits for the wallet to shut down.
